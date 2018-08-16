@@ -16,9 +16,9 @@ a:hover {
 		position: fixed;
 		left: 0;
 		top: 0;
-		width: 250px;
+		width: 220px;
 		height: 100%;
-		padding: 4rem 3rem 0;
+		padding: 1rem 2rem 0;
 	}
 }
 
@@ -61,7 +61,7 @@ a:hover {
 
 .dropdown:hover .dropdown-content {
 	display: block;
-	margin-left: 80px;
+	margin-left: 85px;
 	margin-top: -3.3em;
 	opacity: 1;
     transition: opacity 1s ease;
@@ -77,6 +77,17 @@ a:hover {
 
 .dropdown-content a:hover {
 	color: #e6c3a3;
+}
+
+.socials {
+	position: fixed;
+	bottom: 30px;
+	width: 180px;
+	line-height: 20px;
+}
+
+.socials p {
+	font-size: 12px;
 }
 
 
