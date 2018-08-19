@@ -271,4 +271,11 @@ button {
 		height: auto;
 		max-width: 100vw;
 	}
+	.mobilenav {
+		list-style: none;
+		line-height: 40px;
+		font-size: 28px;
+		display: flex;
+		flex-direction: column;
+	}
 }
