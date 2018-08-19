@@ -8,6 +8,7 @@ let weddingsmenu = document.querySelector("header.weddings");
 let musicmenu = document.querySelector("header.music");
 
 function showTop () {
+	window.scrollTo(0, 0);
 	furled.style.display = "none";
 	mobilenav.style.display = "block";
 }
@@ -20,6 +21,15 @@ function menuClose () {
 	weddingsmenu.style.display = "none";
 	musicmenu.style.display = "none";
 	furled.style.display = "block";
+}
+
+function menuBack () {
+	lifestylemenu.style.display = "none";
+	conceptualmenu.style.display = "none";
+	skatemenu.style.display = "none";
+	weddingsmenu.style.display = "none";
+	musicmenu.style.display = "none";
+	mobilenav.style.display = "block"
 }
 
 function lifestyle () {
