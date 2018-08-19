@@ -14,6 +14,11 @@ function showTop () {
 
 function menuClose () {
 	mobilenav.style.display = "none"
+	lifestylemenu.style.display = "none";
+	conceptualmenu.style.display = "none";
+	skatemenu.style.display = "none";
+	weddingsmenu.style.display = "none";
+	musicmenu.style.display = "none";
 	furled.style.display = "block";
 }
 
@@ -24,16 +29,20 @@ function lifestyle () {
 
 function conceptual () {
 	mobilenav.style.display = "none";
+	conceptualmenu.style.display = "block";
 }
 
 function skate () {
 	mobilenav.style.display = "none";
+	skatemenu.style.display = "block";
 }
 
 function weddings () {
 	mobilenav.style.display = "none";
+	weddingsmenu.style.display = "block";
 }
 
 function music () {
 	mobilenav.style.display = "none";
+	musicmenu.style.display = "block";
 }

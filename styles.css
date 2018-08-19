@@ -37,6 +37,9 @@ button {
 	.phone-header2 {
 		display: none;
 	}
+	.furled {
+		display: none;
+	}
 }
 
 @media (max-width: 950px) {
@@ -85,6 +88,21 @@ button {
 	display: none;
 }
 
+.conceptual {
+	display: none;
+}
+
+.skate {
+	display: none;
+}
+
+.weddings {
+	display: none;
+}
+
+.music {
+	display: none;
+}
 
 .site-header {
 	background: #fff;
@@ -98,7 +116,6 @@ button {
 
 .dropdown {
     position: relative;
-    /*display: inline-block;*/
 }
 
 .dropdown p {
@@ -114,13 +131,13 @@ button {
 }
 
 .dropdown-content {
-   /* display: none;*/
     position: absolute;
     z-index: 1;
     line-height: 8px;
     opacity: 0;
     margin-top: -400px;
     font-size: 14px;
+    display: none;
 }
 
 .dropdown:hover .dropdown-content {
