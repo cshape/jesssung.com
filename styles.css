@@ -110,8 +110,6 @@ button {
 	}
 }
 
-
-
 .phone-header2 {
 		display: none;
 }
@@ -266,13 +264,14 @@ button {
 	}
 	.mobilenav {
 		list-style: none;
-		line-height: 80px;
+		line-height: 130px;
 		font-size: 28px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		font-size: 60px;
+		min-height: 100vh;
 	}
 	.icon {
 		height: 70px;
