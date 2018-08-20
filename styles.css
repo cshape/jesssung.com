@@ -169,7 +169,7 @@ button {
 .dropdown-content {
     position: absolute;
     z-index: 1;
-    line-height: 8px;
+    line-height: 12px;
     opacity: 0;
     margin-top: -400px;
     font-size: 14px;
@@ -230,6 +230,7 @@ button {
 		flex-direction: row;
 		flex-wrap: wrap;
 		white-space: nowrap;
+		margin-top: 50px;
 	}
 
 	.photos img {
