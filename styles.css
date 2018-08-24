@@ -22,6 +22,10 @@ button {
     outline: inherit;
 }
 
+.blackout:hover {
+	color: black;
+}
+
 @media (min-width: 951px) {
 	.site-header {
 		position: fixed;
@@ -198,7 +202,7 @@ button {
 }
 
 .active {
-	color: #e6c3a3;
+	text-decoration: underline;
 }
 
 .socials {
