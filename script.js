@@ -29,7 +29,7 @@ function menuBack () {
 	skatemenu.style.display = "none";
 	weddingsmenu.style.display = "none";
 	musicmenu.style.display = "none";
-	mobilenav.style.display = "block"
+	mobilenav.style.display = "block";	
 }
 
 function lifestyle () {

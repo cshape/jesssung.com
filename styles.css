@@ -158,11 +158,11 @@ button {
 	font-size: 18px;
 }
 
-.dropdown p:hover {
+.dropdown:hover {
 	cursor: default;
 }
 
-.dropdown-content:hover .dropdown {
+.dropdown-content:hover {
 	color: #e6c3a3;
 }
 
@@ -171,17 +171,18 @@ button {
     z-index: 1;
     line-height: 12px;
     opacity: 0;
-    margin-top: -400px;
+    margin-top: -4400px;
     font-size: 14px;
-    display: none;
+    display: block;
 }
 
 .dropdown:hover .dropdown-content {
 	display: block;
 	margin-left: 90px;
 	margin-top: -3.3em;
-	opacity: 1;
-    transition: opacity 1.4s ease;
+	opacity: 1; 
+	transition: opacity 1.3s ease;
+	 
 }
 
 .dropdown-content a {
@@ -193,6 +194,10 @@ button {
 }
 
 .dropdown-content a:hover {
+	color: #e6c3a3;
+}
+
+.active {
 	color: #e6c3a3;
 }
 
@@ -283,3 +288,5 @@ button {
 		height: 2em;
 		margin-top: 2em;
 	}
+
+
