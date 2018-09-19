@@ -296,12 +296,10 @@ button {
 	}
 
 .insta-icon {
-	width: 32px;
-	height: 32px;
-	margin-top: 15px;
-	margin-left: -4px;
+	width: 70px;
+	height: 70px;
 	transition-property: all;
-	transition-duration: 100ms;
+	transition-duration: 200ms;
 }
 
 .insta-icon:hover {
@@ -314,3 +312,32 @@ button {
 	margin-bottom: 1em;
 }
 
+.low-icon {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	height: 70px;
+	width: 70px;
+}
+
+.contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.contact-text {
+	margin: 50px;
+	z-index: 9999999;
+	text-align: right;
+}
+
+.contact-pic {
+	width: 40vw;
+	margin: 50px;
+}
+
+.foto {
+	width: 100%;
+}
