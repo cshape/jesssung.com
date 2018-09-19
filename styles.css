@@ -341,3 +341,33 @@ button {
 .foto {
 	width: 100%;
 }
+
+@media (max-width: 951px) {
+	.contact {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.contact-text {
+
+	}
+	.contact-pic {
+		width: 100vw;
+	}
+}
+
+@media only screen and (max-device-width: 950px) {
+	.contact {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.contact-text {
+
+	}
+	.contact-pic {
+		width: 100vw;
+	}
+}
