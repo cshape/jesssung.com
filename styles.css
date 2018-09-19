@@ -277,14 +277,16 @@ button {
 	.mobilenav {
 		list-style: none;
 		line-height: 150px;
-		font-size: 28px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		font-size: 100px;
+		font-size: 80px;
 		min-height: 100vh;
 		max-height: 100vh;
+	}
+	.mobilenav a {
+		height: 160px;
 	}
 	.icon {
 		height: 8em;
@@ -293,7 +295,11 @@ button {
 
 .closeicon {
 		height: 2em;
-		margin-top: 2em;
+		margin-top: .5em;
+		/*position: fixed;
+		bottom: .5em;
+		left: 50%;
+		transform: translateX(-50%);*/
 	}
 
 .insta-icon {
@@ -309,8 +315,7 @@ button {
 
 .mob-icon {
 	height: 2em;
-	margin-top: .5em;
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 }
 
 .low-icon {
