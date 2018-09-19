@@ -284,6 +284,7 @@ button {
 		align-items: center;
 		font-size: 100px;
 		min-height: 100vh;
+		max-height: 100vh;
 	}
 	.icon {
 		height: 8em;
@@ -364,8 +365,8 @@ button {
 		align-items: center;
 		justify-content: center;
 	}
-	.contact-text {
-
+	.insta-icon {
+		display: none;
 	}
 	.contact-pic {
 		width: 100vw;
