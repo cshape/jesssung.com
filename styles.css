@@ -59,7 +59,7 @@ button {
 		width: 100%;
 		background-color: white;
 		min-height: 50px;
-		z-index: 9999;
+		z-index: 9999999;
 	}
 	.furled {
 		display:flex;
@@ -335,7 +335,7 @@ button {
 
 .contact-text {
 	margin: 50px;
-	z-index: 9999999;
+	z-index: 9999;
 	text-align: right;
 }
 
