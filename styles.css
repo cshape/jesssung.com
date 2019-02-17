@@ -379,3 +379,7 @@ button {
 		width: 100vw;
 	}
 }
+
+.mobilenav li {
+	text-align: center;
+}
