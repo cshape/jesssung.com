@@ -373,6 +373,8 @@ button {
 	}
 	.contact-text {
 		font-size: 4em;
+		margin: 10%;
+   		margin-top: 10em;
 	}
 	.insta-icon {
 		display: none;
